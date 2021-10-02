@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <title>HTML and CSS Design</title>
+        <link rel="stylesheet" type="text/css" href="design.css">
+    </head>
+    <body>
+        <div>
+        <fieldset>
+        <centre>
+        <form>
+            <legend><b>Registeration form</b></legend>
+                 <br><label for="firstname">First Name :</label> <br>
+                <input class="text" id="firstname"type="text" placeholder="First Name" minlength="3" required><br>
+                <br>
+                <label>Last Name :</label><br>
+                <input  type="text" placeholder="Last Name"><br>
+                <br>
+                <label> E-Mail :</label><br>
+                <input type="email" placeholder="E-Mail"><br>
+                <br>
+                <label> Mobile Number :</label><br>
+                <input type="number" placeholder="Mobile Number" minlength="10" min="1000000000" max="9999999999"><br>
+                <br>
+                <label>Gender :</label>
+                <br>
+                  <input type="radio" value="male" id="male" name="gen" checked><label for="male">Male</label>
+                  <input type="radio" value="female" id="female" name="gen"><label for="female">Female</label>
+                <br><br>
+                <label> Birthday :</label><br>
+                <input type="date"><br>
+                <br>
+                <div>
+                  <label>Qualifications :</label><br>
+                  <input type="checkbox" value="10th" id="tenth" name="qualify" checked><label for="tenth">10 th</label>
+                  <input type="checkbox" value="12th" id="twel" name="qualify" checked><label for="twel">12 th</label>
+                  <input type="checkbox" value="UG" id="ug" name="qualify"><label for="ug">UG</label>
+                  <input type="checkbox" value="PG" id="pg" name="qualify" ><label for="pg">PG</label>
+                </div>
+                <br>
+                <div>
+                  <label for="state">Select State :</label>
+                  <select id="state">
+                    <option value="TN">Tamil Nadu</option>
+                    <option value="KL">Kerala</option>
+                  </select>
+                </div>
+                <br>
+                <div>
+                  <label for="count">Select District :</label>
+                  <select id="count">
+                    <option value="sal">Salem</option>
+                    <option value="nam">Namakkal</option>
+                    <option value="chen">Chennai</option>
+                    <option value="tirvp">Thiruvananthapuram</option>
+                    <option value="tisr">Thrissur</option>
+                    <option value="kot">Kottayam</option>
+                   </select>
+                </div>
+                <br>
+                <div>
+                  <label>Any Tweet!!!</label><br>
+                  <textarea placeholder="Write here" cols="40" rows="10"></textarea>
+                </div>
+                <br>
+                <button>submit</button>
+              </div>
+            </form>
+            </centre>
+        </fieldset>
+      </body> 
+</html>
